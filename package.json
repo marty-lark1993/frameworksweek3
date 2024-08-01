@@ -1,0 +1,24 @@
+{
+  "name": "lab3",
+  "version": "1.0.0",
+  "description": "workshop for software frameworks week3",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marty-lark1993/frameworksweek3.git"
+  },
+  "author": "Martin Lark",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marty-lark1993/frameworksweek3/issues"
+  },
+  "homepage": "https://github.com/marty-lark1993/frameworksweek3#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.19.2",
+    "jquery": "^3.7.1"
+  }
+}

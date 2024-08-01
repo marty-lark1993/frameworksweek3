@@ -1,0 +1,78 @@
+body {
+  background-color: aquamarine;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-width: 100vw;
+  min-height: 100vh;
+}
+
+#loginBox {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 90px;
+  border-radius: 25px;
+  border: 2px solid black;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+input {
+  margin: 10px;
+  padding: 20px;
+  width: 100%;
+  font-size: large;
+  border: 2px solid black;
+  transition: 1s;
+}
+
+input:focus {
+  transform: scale(1.1);
+  outline: none;
+  transition: 1s;
+  border: 2px solid aquamarine;
+}
+
+button {
+  font-size: large;
+  width: 100%;
+  padding: 20px;
+  background-color: white;
+  transition: 1s;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: aquamarine;
+  transition: 1s;
+}
+
+#result {
+  width: 40%;
+  height: 10%;
+  border-radius: 20px;
+  border: 2px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.success {
+  background-color: green;
+  display: block;
+}
+
+.fail {
+  background-color: red;
+  display: block;
+}
